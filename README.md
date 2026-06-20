@@ -1,6 +1,6 @@
 # StewardDesk
 
-> **Free church finance tool for volunteer assistant treasurers — built by a church treasurer, for the helpers who make it all work.**
+> **Give your counting team their own independent record.** A free reconciliation tool for church volunteer helpers and assistant treasurers — built by a church treasurer, for the helpers who make it all work.
 
 [StewardDesk.com](https://stewarddesk.com) · Free · Open to all churches
 
@@ -8,60 +8,87 @@
 
 ## What is StewardDesk?
 
-StewardDesk is a free web application designed specifically for **church volunteer helpers and assistant treasurers**. It gives helpers their own space to log offering counts, import digital giving records, and reconcile contributions — independently and accurately.
+StewardDesk gives church counting volunteers a way to count, reconcile, and sign off on Sunday's offering — independently from the treasurer's books. Cash, checks, and digital giving are all matched and verified, and every count ends in a printable, signed report that stands on its own as a record.
 
-As a volunteer church treasurer myself, I built StewardDesk because I know firsthand the challenges that helpers face. Manual counting, cross-referencing digital giving platforms, and keeping accurate records takes time — time that volunteers don't always have. StewardDesk is here to help.
+It is **not** an accounting system and it doesn't replace your treasurer's books. It's the independent check that should exist alongside them — the same kind of internal control most small churches know they should have, but rarely have the tools to actually do.
+
+As a volunteer church treasurer myself, I built StewardDesk because I know firsthand the challenges helpers face. Manual counting, cross-referencing digital giving platforms, and producing a clean, defensible record takes time — time that volunteers don't always have. StewardDesk is here to help.
 
 ---
 
 ## Who Is It For?
 
-- **Volunteer assistant treasurers** who count and record weekly offerings
-- **Church helpers** who need to validate digital giving totals against physical counts
-- **Small to mid-size churches** looking for a simple, free tool without a subscription fee
+- **Treasurers & lead helpers**, who set up the church's categories and integrations once, then get an independent check on every count going forward — without doing the counting themselves
+- **Counting volunteers**, who count, sync, reconcile, and sign each week — no setup to manage, no accounting background required
+- **Churches under 250 members**, that rely on rotating volunteers rather than a paid finance team, and want something free, simple, and trustworthy
+
+---
+
+## The Report
+
+Every count produces a printable record:
+
+- **Physical count** — coins and bills by denomination, checks logged by number
+- **Digital giving** — Zeffy and bank-synced transfers (Zelle, Venmo, direct deposit), matched to members
+- **Validation** — cash + checks + digital, checked against data entry automatically, with a clear match/mismatch indicator before anyone signs
+- **Two signatures** — Counted by, Verified by, both dated — a real record for your files, your board, or your auditor
+
+This report is the core of StewardDesk. Everything else exists to make producing it fast and accurate.
 
 ---
 
 ## Features
 
-### Offering Count Management
-Log and track physical offering counts with a structured counting workflow. Helpers can record check entries, cash totals, and finalize daily counts — all in one place.
+### Guided Offering Count
+A structured, step-by-step counting workflow — coins, bills, and checks — so every helper counts the same way, every week.
 
-### Digital Giving Import
-Import digital giving records directly from popular church giving platforms. Eliminate manual data entry and give helpers an easy way to reconcile online donations against physical counts.
+### Automatic Reconciliation
+Physical count and data entry are validated against each other the moment the count is finished. Mismatches surface immediately, before the report is signed.
 
-### Contribution Tracking
-Record and manage member contributions by fund and giving category. Supports one-time and recurring giving entries with a full contribution history.
-
-### Giving Categories
-Organize contributions by fund with support for parent and child category structures — flexible enough to match how your church manages its finances.
-
-### Member Management
-Maintain a simple member directory tied to contribution records. Quickly add or look up members during the counting process.
+### Digital Giving, Reconciled Alongside Cash
+Digital gifts aren't a separate spreadsheet — they're staged, matched to members, and folded into the same reconciliation as cash and checks.
 
 ### Zeffy Integration
-Automatically pull in digital giving records from [Zeffy](https://www.zeffy.com), the free online giving platform, for seamless reconciliation.
+Transactions from [Zeffy](https://www.zeffy.com), the free online giving platform, are pulled in line by line and auto-matched to members (by email, then by name). Helpers review and confirm the match before it's processed into a contribution record.
 
-### Bank Transaction Review
-Connect your church bank account via Plaid to review and match bank deposit transactions against contribution records.
+### Bank Transaction Review (Plaid)
+Connect your church bank account via [Plaid](https://plaid.com) to pull in individual member-initiated transfers — Zelle, Venmo, direct deposit — filtered down to likely contributions, not every transaction in the account. Helpers review, match to a member, and process or disregard each line.
+
+### Staging, Not Blind Import
+Both Zeffy and bank-synced transactions land in a staging area first — never written directly into contribution records. A helper reviews, corrects the member match, assigns the right category, and only then processes it through. Anything that isn't a real contribution can be disregarded.
+
+### Contribution Tracking
+Record and manage member contributions by fund and giving category, with full history — cash, check, or digital, all in one place.
+
+### Giving Categories
+Organize contributions by fund, with support for parent and child category structures, matching how your church already manages its finances.
+
+### Member Management
+A simple member directory tied to contribution records, with quick add/lookup during the counting process.
+
+### CSV / Excel Member Import
+First-time setup for a new church doesn't mean typing in your member list by hand — admins can bulk-import members from a spreadsheet to get started quickly.
 
 ### Printable Reports
-Generate clean, printable contribution reports for record-keeping and treasurer review.
+Generate a clean, signed, dated reconciliation report for any service — ready for your files, your treasurer, or your board.
+
+### Role-Based Access
+Counting volunteers run the weekly count and sync. Setup, integrations, and admin tools stay with the treasurer or lead helper.
 
 ### Secure by Design
-Every helper account is protected with mandatory two-factor authentication (2FA), account lockout policies, and secure session management.
+Every account is protected with mandatory two-factor authentication (2FA), account lockout policies, and secure session management.
 
 ---
 
 ## Multi-Church Support
 
-StewardDesk is built to support **multiple churches on a single platform**. Each church gets their own completely isolated workspace — members, contributions, counts, and giving records are never shared between organizations. Any church can sign up for free at [StewardDesk.com](https://stewarddesk.com).
+StewardDesk supports **multiple churches on a single platform**. Each church gets a completely isolated workspace — members, contributions, counts, and giving records are never shared between organizations. Any church can sign up for free at [StewardDesk.com](https://stewarddesk.com).
 
 ---
 
 ## Giving Platform Integrations
 
-StewardDesk connects with the digital giving platforms your church already uses, making it easy for helpers to import online donations without manual data entry.
+StewardDesk connects with the digital giving platforms your church already uses, so helpers can reconcile online giving without manual data entry.
 
 **Currently supported:**
 - [Zeffy](https://www.zeffy.com) — free online giving platform
@@ -69,8 +96,10 @@ StewardDesk connects with the digital giving platforms your church already uses,
 **Coming soon:**
 - Planning Center Giving
 - Pushpay
+- Tithe.ly
+- And more based on community demand
 
-> **Note:** Some giving platform integrations require an API key from your provider. Your church administrator will need to set this up during onboarding. StewardDesk provides step-by-step setup guides for each integration — no advanced technical knowledge required.
+> **Note:** Giving platform integrations and bank sync are set up once by the church admin (treasurer or lead helper) — including any API key or bank connection. Once that's done, counting volunteers can run syncs and review transactions themselves each week. StewardDesk provides step-by-step setup guides — no advanced technical knowledge required.
 
 **Don't see your giving platform?**
 Open a request on our [GitHub Issues](https://github.com/joshmoua864/stewarddesk/issues) page and we'll consider adding it. Community feedback drives our integration roadmap.
@@ -95,7 +124,7 @@ Open a request on our [GitHub Issues](https://github.com/joshmoua864/stewarddesk
 
 ## Keep StewardDesk Free
 
-StewardDesk is and always will be free for churches. If it helps your volunteers save time and serve their congregation better, consider supporting the project with a donation.
+StewardDesk is and always will be free for churches — no subscriptions, no paid tiers. If it helps your volunteers save time and gives your church a real independent record each week, consider supporting the project with a donation.
 
 👉 [Support StewardDesk](https://stewarddesk.com/donate)
 
